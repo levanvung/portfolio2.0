@@ -1,0 +1,21 @@
+// skill list
+export const skills = [
+  "Typescript",
+  "Javascript",
+  "React.Js",
+  "Next.Js",
+  "Tailwind CSS",
+  "Redux",
+  "Material UI",
+  "Firebase",
+  "Node.Js",
+  "Express.Js",
+  "MongoDB",
+  "Socket.io",
+  "webRtc",
+  "Prisma",
+  "PostgreSQL",
+  "AWS",
+  "Docker",
+  "GraphQL",
+];
