@@ -1,0 +1,16 @@
+ {
+    "logo": "HasiB.",
+    "nav": {
+        "works": "Some Things I’ve Built",
+        "about": "About",
+        "contact": "Contact",
+        "blog": "Blog"
+    },
+    "language": {
+        "english": "EN",
+        "vietnamese": "VI",
+        "switchToEnglish": "Switch to English",
+        "switchToVietnamese": "Chuyển sang tiếng Việt"
+    },
+    "resume": "Resume"
+}

@@ -65,8 +65,8 @@ const ProjectCard = ({
         <Link href={`${live}`}>
           <div className="h-[200px] w-full relative rounded-xl overflow-hidden">
             <Image
-              src={`https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/projects/${thumbnail}?raw=true`}
-              blurDataURL={`https://github.com/devhasibulislam/developer-portfolio/blob/master/public/images/projects/${thumbnail}?raw=true`}
+              src={`https://github.com/levanvung/img_project/blob/master/${thumbnail}?raw=true`}
+              blurDataURL={`https://github.com/levanvung/img_project/blob/master/${thumbnail}?raw=true`}
               className="transition-all duration-300 group-hover:scale-125"
               layout="fill"
               objectFit="cover"

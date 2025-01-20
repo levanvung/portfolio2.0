@@ -56,7 +56,7 @@ export const projects: ProjectTypes[] = [
   },
 
   {
-    title: "Canim eCommerce",
+    title: "CMS Admin Wgroup",
     description:
       "Shop seamlessly with top brands, secure transactions, swift deliveries, user-friendly navigation, and exclusive deals. Redefine convenience in our digital marketplace.",
     tech: [
@@ -89,7 +89,7 @@ export const projects: ProjectTypes[] = [
     github: "https://github.com/devhasibulislam/canim-ecommerce",
     youtube: "https://youtu.be/0A_tPdRdkDw?si=TxAyapvf6u3C-JLm",
     live: "https://canim-csr.vercel.app",
-    thumbnail: "canim-ecommerce.png",
+    thumbnail: "CMS_W.png",
     featured: false,
   },
 
@@ -126,6 +126,75 @@ export const projects: ProjectTypes[] = [
     featured: false,
   },
 
+  {
+    title: "URL Shortener",
+    description:
+      "URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page.",
+    tech: [
+      "autoprefixer",
+      "axios",
+      "cheerio",
+      "eslint",
+      "eslint-config-next",
+      "mongodb",
+      "next",
+      "postcss",
+      "react",
+      "react-dom",
+      "tailwindcss",
+    ],
+    github: "https://github.com/devhasibulislam/lisonet-template",
+    youtube: "https://youtu.be/5Hh2RwhlreY?si=Iws0PyljTz5iEiKP",
+    live: "https://lisonet-template.vercel.app/",
+    thumbnail: "url-shortener.png",
+    featured: false,
+  },
+  {
+    title: "URL Shortener",
+    description:
+      "URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page.",
+    tech: [
+      "autoprefixer",
+      "axios",
+      "cheerio",
+      "eslint",
+      "eslint-config-next",
+      "mongodb",
+      "next",
+      "postcss",
+      "react",
+      "react-dom",
+      "tailwindcss",
+    ],
+    github: "https://github.com/devhasibulislam/lisonet-template",
+    youtube: "https://youtu.be/5Hh2RwhlreY?si=Iws0PyljTz5iEiKP",
+    live: "https://lisonet-template.vercel.app/",
+    thumbnail: "url-shortener.png",
+    featured: false,
+  },
+  {
+    title: "URL Shortener",
+    description:
+      "URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page.",
+    tech: [
+      "autoprefixer",
+      "axios",
+      "cheerio",
+      "eslint",
+      "eslint-config-next",
+      "mongodb",
+      "next",
+      "postcss",
+      "react",
+      "react-dom",
+      "tailwindcss",
+    ],
+    github: "https://github.com/devhasibulislam/lisonet-template",
+    youtube: "https://youtu.be/5Hh2RwhlreY?si=Iws0PyljTz5iEiKP",
+    live: "https://lisonet-template.vercel.app/",
+    thumbnail: "url-shortener.png",
+    featured: false,
+  },
   {
     title: "URL Shortener",
     description:
