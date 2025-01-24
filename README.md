@@ -1,4 +1,4 @@
-# Hasibul Islam (@devhasibulislam)
+# Vung Dev
 
 > Highly motivated and very passionate Full Stack Developer with three years of experience in Typescript, React js, Next js, Firebase, Tailwind CSS, Material UI, Node js, Express js, MongoDB
 
@@ -48,19 +48,3 @@ With its modern design and intuitive layout, the Landing Page welcomes users to 
 | postcss                    | ^8.4.24  |
 | tailwindcss                | ^3.2.4   |
 
-# Development
-
-## Clone Repository
-
-```bash
-git clone https://github.com/devhasibulislam/developer-portfolio.git
-cd developer-portfolio
-yarn install
-```
-
-## Deployment
-
-- [x] `Live` Link - [Click Here](https://devhasibulislam.vercel.app/)
-- [x] `Resume` Link - [Click Here](https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=share_link)
-
-* [x] `Author` Link - [Hasibul Islam](https://bento.me/devhasibulislam)
