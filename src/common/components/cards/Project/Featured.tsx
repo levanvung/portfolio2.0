@@ -8,6 +8,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 //
 import { cx } from "@config/constants";
 import { ProjectTypes } from "@config/types";
+import { useLanguage } from "@context/LanguageContext";
 
 const Featured = ({
   secondary,
@@ -22,6 +23,7 @@ const Featured = ({
   const swiperContainerRef = useRef<HTMLDivElement>(null);
 
   const __renderImage = () => {
+
     return (
       <div className="col-span-7 relative hidden sm:block">
         <Link href={`${live}`}>
@@ -44,6 +46,8 @@ const Featured = ({
   };
 
   const __renderContent = () => {
+    const { t } = useLanguage();
+
     return (
       <div
         className={cx(
@@ -52,7 +56,7 @@ const Featured = ({
         )}
       >
         <div>
-          <p className="text-sky-400"> Featured </p>
+          <p className="text-sky-400"> {t("Featured")} </p>
           <h1 className="text-3xl font-medium text-slate-300"> {title} </h1>
 
           <div className="my-6 p-6 bg-slate-800 text-slate-300 shadow-xl rounded-xl">

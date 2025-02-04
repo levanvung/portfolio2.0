@@ -5,10 +5,14 @@ import Featured from "@components/cards/Project/Featured";
 import ProjectCard from "@components/cards/Project/ProjectCard";
 import Button from "@components/Button";
 import { fadeTop, fadeLeft, motionStep } from "@config/motion";
-import { projects } from "@config/constants";
+import  Userprojects  from "@config/constants";
 import { ProjectTypes } from "@config/types";
+import { useLanguage } from "@context/LanguageContext";
 
 const Projects = () => {
+    const { t } = useLanguage(); 
+    const projectData = Userprojects()
+
   return (
     <section id="works" className="container">
       <motion.h1
@@ -17,11 +21,11 @@ const Projects = () => {
         className="flex items-center gap-2 text-lg md:text-3xl font-medium text-slate-300 mb-12"
       >
         <span className="text-sky-400 font-mono">03. </span>
-        Some Things I’ve Built
+        {t("project.title")}
       </motion.h1>
 
       <div className="space-y-20">
-        {projects
+        {projectData
           .filter((e: ProjectTypes) => e.featured == true)
           .map((e: ProjectTypes, i: number) => (
             <motion.div key={i} variants={fadeTop} {...motionStep}>
@@ -31,7 +35,7 @@ const Projects = () => {
       </div>
 
       <div className="grid grid-cols-8 2xl:grid-cols-12 gap-6 gap-y-8 my-20">
-        {projects
+        {projectData
           .filter((e: ProjectTypes) => e.featured !== true)
           .map((e: ProjectTypes, i: number) => (
             <ProjectCard {...e} key={i} />
