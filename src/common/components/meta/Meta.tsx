@@ -4,12 +4,12 @@ const Meta = () => {
   return (
     <>
       {/* Open Graph Tags (for Facebook) */}
-      <meta property="og:site_name" content="Hasibul Islam" />
-      <meta property="og:url" content="https://devhasibulislam.vercel.app/" />
+      <meta property="og:site_name" content="Le Van Vung" />
+      <meta property="og:url" content="" />
       <meta property="og:type" content="website" />
       <meta
         property="og:title"
-        content="Hasibul Islam (@devhasibulislam), a full stack web developer"
+        content="Le Van Vung, a full stack web developer"
       />
       <meta
         property="og:description"
@@ -17,17 +17,17 @@ const Meta = () => {
       />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1704296610/devhasibulislam.png"
+        content=""
       />
 
       {/* General Metadata */}
-      <meta name="author" content="Hasibul Islam" />
+      <meta name="author" content="Le Van Vung" />
       <title>
-        Hasibul Islam (@devhasibulislam), a full stack web developer
+      Le Van Vung , a full stack web developer
       </title>
       <meta name="robots" content="index,follow" />
       <meta
-        title="Hasibul Islam (@devhasibulislam), a full stack web developer"
+        title="Le Van Vung, a full stack web developer"
         name="title"
       />
 
@@ -51,7 +51,7 @@ const Meta = () => {
       {/* Article Publisher Metadata */}
       <meta
         property="article:publisher"
-        content="https://www.linkedin.com/in/devhasibulislam/"
+        content=""
       />
 
       {/* Twitter Card Tags */}
@@ -59,7 +59,7 @@ const Meta = () => {
       <meta name="twitter:site" content="@devhasibulislam" />
       <meta
         name="twitter:title"
-        content="Hasibul Islam (@devhasibulislam), a full stack web developer"
+        content="Le Van Vung, a full stack web developer"
       />
       <meta
         name="twitter:description"
@@ -67,14 +67,14 @@ const Meta = () => {
       />
       <meta
         name="twitter:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1704296610/devhasibulislam.png"
+        content=""
       />
 
       {/* Pinterest Tags */}
       <meta name="pinterest-rich-pin" content="true" />
       <meta
         name="pinterest:title"
-        content="Hasibul Islam (@devhasibulislam), a full stack web developer"
+        content="Le Van Vung, a full stack web developer"
       />
       <meta
         name="pinterest:description"
@@ -82,7 +82,7 @@ const Meta = () => {
       />
       <meta
         name="pinterest:image"
-        content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1704296610/devhasibulislam.png"
+        content=""
       />
 
       {/* Favicons */}
@@ -104,8 +104,8 @@ const Meta = () => {
         href="/favicon-16x16.png"
       />
       <link rel="manifest" href="/site.webmanifest" />
-      <link rel="canonical" href="https://devhasibulislam.vercel.app/"></link>
-      <link rel="pingback" href="https://devhasibulislam.vercel.app/"></link>
+      <link rel="canonical" href="/"></link>
+      <link rel="pingback" href="/"></link>
     </>
   );
 };

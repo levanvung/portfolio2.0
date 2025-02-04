@@ -33,17 +33,17 @@ const Left = () => {
         <div>
           <AnimatedTextCharacter
             className="!font-medium !bg-clip-text !text-[2rem] !leading-normal md:!text-7xl md:!leading-[87px] !text-slate-300 justify-center lg:justify-start"
-            text={t("intro.name")} // Thay "Hasibul Islam."
+            text={t("intro.name")}
           />
           <AnimatedTextCharacter
             className="font-medium text-sm sm:text-[1.6rem] tracking-normal md:text-[2rem] text-slate-400 mt-1 justify-center lg:justify-start"
-            text={t("intro.role")} // Thay "Who Transform Ideas into Web Wonders"
+            text={t("intro.role")} 
           />
         </div>
 
         <div className="my-5 md:my-8 leading-7 text-slate-400 md:text-lg max-w-3xl">
           <AnimatedTextWord
-            text={t("intro.description")} // Thay "#MernStack #WebDeveloper..."
+            text={t("intro.description")}
             className="text-sm sm:text-lg justify-center lg:justify-start"
           />
         </div>
