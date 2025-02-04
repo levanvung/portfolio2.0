@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { IoMdArrowDropright } from "react-icons/io";
 //
-import { worked_data } from "../config/constants";
+import  useWorkedData  from "../config/constants";
 import { WorkedTypes } from "../config/types";
 import { cx } from "@config/constants";
 import Pager from "./Pager";
@@ -21,6 +21,7 @@ import {
 const lAnimation = [worked_1, worked_2, worked_3];
 
 const Content = () => {
+  const workedData = useWorkedData()
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [tabSidelineHeight, setTabSidelineHeight] = useState<number>(0);
   const [tabSidelineTop, setTabSidelineTop] = useState<number>(0);
@@ -48,7 +49,7 @@ const Content = () => {
         className="relative min-w-[200px]"
       >
         <div>
-          {worked_data.map((e: WorkedTypes, i: number) => (
+          {workedData.map((e: WorkedTypes, i: number) => (
             <div
               key={i}
               onClick={() => setActiveIndex(i)}
@@ -70,7 +71,7 @@ const Content = () => {
       </motion.div>
 
       <Pager value={activeIndex}>
-        {worked_data.map(
+        {workedData.map(
           (
             { title, url, company, deadline, description }: WorkedTypes,
             i: number
@@ -98,6 +99,7 @@ const Content = () => {
                     variants={lAnimation[i]}
                     {...motionStep}
                     className="gap-1 flex text-slate-400 select-none"
+                    layout 
                   >
                     <span className=" min-w-10">
                       <IoMdArrowDropright className="text-sky-400 text-[1.3rem]" />{" "}
