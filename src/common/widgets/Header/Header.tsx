@@ -6,7 +6,8 @@ import { motion } from "framer-motion";
 import ReactCountryFlag from "react-country-flag";
 import { navData } from "@config/constants";
 import AnimatedTextCharacter from "@components/motion/AnimatedTextCherecter";
-import { useLanguage } from "../../../context/LanguageContext";
+import { useLanguage } from "@context/LanguageContext";
+
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();

@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+
     "lib": [
       "dom",
       "dom.iterable",
@@ -46,7 +47,8 @@
       ],
       "@config/*": [
         "src/shared/config/*"
-      ]
+      ],
+      "@context/*": ["src/context/LanguageContext.tsx"],
     },  
     "plugins": [
       {
