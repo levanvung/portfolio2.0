@@ -1,29 +1,32 @@
 import React from "react";
 //
 import Button from "@components/Button";
+import { useLanguage } from "@context/LanguageContext";
 
 const GetInTouch = () => {
+    const { t } = useLanguage(); 
+  
   const content =
-    " Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!";
+    t("next.but")
 
   return (
     <section id="contact" className="text-center my-4">
       <h1 className="flex items-center gap-2 text-md justify-center font-normal text-sky-400">
-        <span className=" font-mono">05. </span>
-        What next?
+        <span className=" font-mono">04. </span>
+        {t("next.title")}
       </h1>
 
       <h1 className="font-medium text-slate-300 text-4xl text-center mt-5">
         {" "}
-        Get In Touch{" "}
+        {t("next.header")}{" "}
       </h1>
 
       <p className="text-slate-400 max-w-[500px] mx-auto my-3 mb-10">
         {content}
       </p>
 
-      <Button href="mailto:devhasibulislam@gmail.com" outlined>
-        Get Free Quote
+      <Button href="mailto:levanvung113@gmail.com" outlined>
+        {t("next.question")}
       </Button>
     </section>
   );

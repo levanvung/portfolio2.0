@@ -1,25 +1,27 @@
 import React from "react";
+import { useLanguage } from "@context/LanguageContext";
 
 const Footer = () => {
+    const { t } = useLanguage(); 
+  
   return (
     <section id="__footer" className="py-5">
       <div className="text-center text-sm text-slate-400">
         <p className="opacity-90">
-          Get 15 Minutes{" "}
+          {t("footer.get15")}{" "}
           <a
-            href="https://calendly.com/devhasibulislam/15min"
+            href="https://calendly.com/levanvung113/30min"
             target="_blank"
             className="text-sky-400"
           >
-            Free Consultation
+           {t("footer.f")}
           </a>.{" "}
-          Regards{" "}
           <a
-            href="https://bento.me/devhasibulislam"
+            href="https://bento.me/vungdev"
             target="_blank"
             className="text-sky-400"
           >
-            Hasibul Islam.
+            Le Van Vung
           </a>
         </p>
       </div>

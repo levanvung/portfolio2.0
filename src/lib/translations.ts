@@ -69,6 +69,10 @@ export const translations = {
         title: "Bell AI website content management CMS system",
         description:"The content management cms system is used to store patient photo data, customer order information, and disease information. There is also Bell Wiki, which is considered a library for readers about skin diseases."
       },
+      facelogin:{
+        title: "Web system login by facial recognition ",
+        description:"Machine learning application to train facial data files for login and registration for a system to ensure information security. The application is in development and has not been integrated yet. You can refer to the github link."
+      },
       title: "Some Things I’ve Built",
       hio: "HIO Insurance for Golfers",
       cmsWgroup: "CMS Admin Wgroup",
@@ -78,6 +82,17 @@ export const translations = {
         "A website that allows users to buy insurance packages according to their needs. Fast, convenient, transparent. Guaranteed to pay out when golfers win insurance",
     },
     Featured: "Featured",
+    next: {
+        question:"Get in touch",
+        title: "What next?",
+        header:"Get In Touch",
+        but: "While I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hello, I'll do my best to respond!"
+    },
+    footer:{
+        get15:"Talk directly if you want to cooperate",
+        f:"Completely free"
+
+    }
   },
   vi: {
     nav: {
@@ -139,6 +154,10 @@ export const translations = {
         description:
           "Hệ thống cms quản lý giúp quản lý các nội dung và thông tin như thông tin đặt sân , thông tin mua bán bảo hiểm , thông tin voucher trên app WGHN ở nền tảng di động",
       },
+      facelogin:{
+        title: "Đăng nhập hệ thống web bằng nhận dạng khuôn mặt",
+        description:"Ứng dụng học máy để đào tạo các tệp dữ liệu khuôn mặt để đăng nhập và đăng ký cho một hệ thống nhằm đảm bảo an ninh thông tin. Ứng dụng đang trong quá trình phát triển và chưa được tích hợp. Bạn có thể tham khảo liên kết github."
+        },
       bellai: {
         title: "Website nhận diện và chuẩn đoán các bệnh ngoài da",
         description:
@@ -158,5 +177,16 @@ export const translations = {
         "Là một website cho phép người dùng mua gói bảo hiểm theo nhu cầu. Nhanh chóng , tiện lợi , minh bạch. Đảm bảo quyền lợi khi golfer trúng bảo hiểm ",
     },
     Featured: "Nổi bật",
+    next: {
+        question:"Liên hệ với tôi",
+        title: "Tiếp theo ?",
+        header:"Liên hệ",
+        but:"Mặc dù hiện tại tôi không tìm kiếm bất kỳ cơ hội mới nào, nhưng hộp thư đến của tôi luôn mở. Cho dù bạn có câu hỏi hay chỉ muốn chào hỏi, tôi sẽ cố gắng hết sức để trả lời bạn!"
+
+    },
+    footer:{
+        get15:"Trao đổi trực tiếp nếu bạn muốn hợp tác",
+        f:"Hoàn toàn miễn phí"
+    }
   },
 };
