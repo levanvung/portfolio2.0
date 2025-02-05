@@ -21,6 +21,7 @@ const Featured = ({
   tech,
 }: ProjectTypes) => {
   const swiperContainerRef = useRef<HTMLDivElement>(null);
+  const { t } = useLanguage();
 
   const __renderImage = () => {
 
@@ -46,7 +47,6 @@ const Featured = ({
   };
 
   const __renderContent = () => {
-    const { t } = useLanguage();
 
     return (
       <div
