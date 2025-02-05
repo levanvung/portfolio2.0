@@ -56,10 +56,10 @@ const Left = () => {
         className="w-fit mx-auto lg:ml-0"
       >
         <a
-          href="https://drive.google.com/file/d/1Gdbax82oaBWz2_0-OYh44E7QvfB53wNS/view?usp=share_link"
+          href="https://drive.google.com/file/d/1qBfZ-M8bhlAQEcd40W_AkExO_6TkMFUA/view?usp=sharing"
           target="_blank"
         >
-          <Button outlined>{t("intro.resume")}</Button> {/* Thay "Check Out My Resume" */}
+          <Button outlined>{t("intro.resume")}</Button>
         </a>
       </motion.div>
     </div>
