@@ -6,7 +6,7 @@ import { useLanguage } from "@context/LanguageContext";
 export const cx = classNames;
 
 // nav data
-export const navData = ["about", "experience", "works", "contact"];
+export const navData = ["about", "experiences", "works", "contact"];
 
 // project data
 const Userprojects = (): ProjectTypes[] => {

@@ -2,7 +2,7 @@ export const translations = {
   en: {
     nav: {
       about: "About",
-      experience: "Experience",
+      experiences: "Experience",
       works: "Work",
       contact: "Contact",
     },
@@ -97,7 +97,7 @@ export const translations = {
   vi: {
     nav: {
       about: "Giới thiệu",
-      experience: "Kinh nghiệm",
+      experiences: "Kinh nghiệm",
       works: "Dự án",
       contact: "Liên hệ",
     },
