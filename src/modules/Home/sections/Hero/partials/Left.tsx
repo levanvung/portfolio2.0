@@ -56,7 +56,7 @@ const Left = () => {
         className="w-fit mx-auto lg:ml-0"
       >
         <a
-          href="https://drive.google.com/file/d/1qBfZ-M8bhlAQEcd40W_AkExO_6TkMFUA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1kNxWOGTwcaVVNQ-yjLapYczpNfHZXJyj/view?usp=sharing"
           target="_blank"
         >
           <Button outlined>{t("intro.resume")}</Button>
